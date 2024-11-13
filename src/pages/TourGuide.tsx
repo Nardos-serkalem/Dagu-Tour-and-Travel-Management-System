@@ -37,7 +37,7 @@ interface TourPackage {
 }
 
 const TourManagement: React.FC = () => {
-  const [tourGuide, setTourGuide] = useState<TourGuide>({
+  const [tourGuide] = useState<TourGuide>({
     id: '1',
     name: 'Nardos Serkalem',
     role: 'TourGuide',
@@ -54,7 +54,7 @@ const TourManagement: React.FC = () => {
     { id: '3', name: 'Simien Mountains', description: 'A national park with dramatic landscapes and wildlife', country: 'Ethiopia' },
     { id: '4', name: 'Bale Mountains', description: 'Famous for its biodiversity and mountainous terrain', country: 'Ethiopia' },
     { id: '5', name: 'Harar', description: 'An ancient walled city with rich culture and history', country: 'Ethiopia' },
-    { id: '6', name: 'Erta-ale', description: 'a low level area in the world', country: 'Ethiopia'},
+    { id: '6', name: 'Erta-ale', description: 'a low level area in the world', country: 'Ethiopia' },
   ]);
 
   const [tourPlaces, setTourPlaces] = useState<TourPlace[]>([

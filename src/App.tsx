@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import ProfilePage from './components/profile/ProfilePage';
 import SearchPage from './components/search/SearchPage';
 import Hotels from './pages/Hotels';
+import TourGuide from './pages/TourGuide';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
               <Route path="/profile" element={<ProfilePage />} />
               <Route path="/search" element={<SearchPage />} />
               <Route path="/Hotels" element={<Hotels />} />
+              <Route path="/TourGuide" element={<TourGuide />} />
             </Routes>
           </main>
           <Footer />
