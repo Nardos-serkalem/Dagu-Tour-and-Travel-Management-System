@@ -164,7 +164,7 @@ const TourManagement: React.FC = () => {
 
   return (
     <TourManagementContainer>
-      <Title>Tour Management System</Title>
+      <Title>Tour Guide</Title>
 
       {tourGuide.privileges.viewDestinations && (
         <Section>
